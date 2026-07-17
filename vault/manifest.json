@@ -1,0 +1,15 @@
+{
+  "profile": "vault/profile.md",
+  "skills": "vault/skills.md",
+  "achievements": "vault/achievements.md",
+  "education": "vault/education.md",
+  "career": [
+    "vault/career/01-bravura.md",
+    "vault/career/02-delta.md"
+  ],
+  "projects": [
+    "vault/projects/kamativi-lithium-power-plant.md",
+    "vault/projects/selous-platinum-power-study.md",
+    "vault/projects/uz-research-week.md"
+  ]
+}

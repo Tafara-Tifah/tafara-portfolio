@@ -1,0 +1,7 @@
+# Obsidian workspace state (machine-specific; keep vault content, ignore app state)
+vault/.obsidian/workspace.json
+vault/.obsidian/workspace-mobile.json
+vault/.obsidian/cache
+.DS_Store
+Thumbs.db
+node_modules/
