@@ -7,8 +7,10 @@ logo: vault/assets/images/logo-stylehive.png
 order: 2
 ---
 
-My own company, offering domestic electrical services alongside my engineering career.
+My own company, offering electrical services for homes and small properties alongside my engineering career.
 
-- Domestic electrical installations: wiring, distribution boards, sockets and lighting.
+- Domestic electrical installations: wiring, conduiting, distribution boards, sockets and modern lighting.
+- Solar PV systems: panels, inverters and lithium battery backup installations.
+- Borehole pump installation and control panel wiring.
 - Electrical repairs, fault-finding and maintenance for homes.
 - Quotations, invoicing and end-to-end customer service.
