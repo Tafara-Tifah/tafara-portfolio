@@ -3,7 +3,7 @@ title: Selous Platinum Project — Power Supply Study
 period: 2024
 tags: Load profiling, Feasibility, Cost-benefit analysis
 image: vault/assets/images/project-selous.jpg
-order: 2
+order: 3
 ---
 
 Researched and evaluated power supply solutions for the Selous Platinum Project.
