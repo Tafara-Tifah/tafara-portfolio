@@ -132,6 +132,11 @@ img { max-width: 100%; }
 .card-text p { margin-bottom: 0.4rem; }
 .card-text em { color: var(--accent-2); }
 
+/* Logos & inline images */
+.tl-logo { height: 46px; width: auto; background: #fff; padding: 5px 10px; border-radius: 8px; margin-bottom: 0.5rem; display: block; }
+.prose img { max-height: 80px; width: auto; background: #fff; padding: 6px 10px; border-radius: 10px; display: block; margin-bottom: 0.8rem; }
+.card-text img { width: 100%; border-radius: 8px; margin-top: 0.5rem; cursor: zoom-in; }
+
 /* Prose (skills / education / achievements) */
 .prose { color: var(--muted); }
 .prose h2 { color: var(--text); font-size: 1.1rem; margin: 1.1rem 0 0.5rem; }

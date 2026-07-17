@@ -12,3 +12,5 @@ Key Electrical Engineer on the installation and commissioning of a lithium proce
 - Designed HV/LV trench layouts, performed cable sizing calculations, and led power and control cable termination.
 - Produced AutoCAD electrical drawings and schematics for the processing plant, power generation facilities, campsites and office buildings.
 - Supported installation of generators, switchgear and distribution for the concrete batch plant and block moulding plant.
+
+![On-site inspection during conveyor installation at Kamativi](vault/assets/images/project-kamativi-2.jpg)

@@ -24,7 +24,7 @@ function esc(s) {
 
 function inlineMd(s) {
   return esc(s)
-    .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" loading="lazy">')
+    .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" loading="lazy" onerror="this.remove()">')
     .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
     .replace(/\*\*([^*]+)\*\*/g, "<strong>$1</strong>")
     .replace(/\*([^*]+)\*/g, "<em>$1</em>")
@@ -117,6 +117,7 @@ async function renderCareer(paths) {
   notes.sort((a, b) => (+a.meta.order || 99) - (+b.meta.order || 99));
   document.getElementById("career-timeline").innerHTML = notes.map(({ meta, body }) => `
     <div class="tl-item">
+      ${meta.logo ? `<img class="tl-logo" src="${esc(meta.logo)}" alt="${esc(meta.company || "")} logo" onerror="this.remove()">` : ""}
       <h3>${esc(meta.role || "")} · ${esc(meta.company || "")}</h3>
       <div class="tl-meta">${esc(meta.period || "")}</div>
       <div class="tl-loc">${esc(meta.location || "")}</div>
@@ -145,9 +146,9 @@ async function renderProjects(paths) {
       </article>`;
   }).join("");
 
-  // Lightbox for project images
+  // Lightbox for project images (cover image + any images inside the note body)
   const lb = document.getElementById("lightbox");
-  document.querySelectorAll(".card-img img").forEach(img => {
+  document.querySelectorAll(".card img").forEach(img => {
     img.addEventListener("click", () => {
       lb.querySelector("img").src = img.src;
       lb.hidden = false;

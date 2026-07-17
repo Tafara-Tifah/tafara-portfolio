@@ -1,14 +1,15 @@
 # Images
 
-Drop your pictures in this folder. The site looks for these filenames:
+Save your pictures in this folder with **exactly these filenames**:
 
-| File | Used for |
+| File | Which picture |
 |---|---|
-| `profile.jpg` | Your portrait photo on the home page |
-| `project-kamativi.jpg` | Kamativi Lithium & Power Plant project card |
-| `project-selous.jpg` | Selous Platinum power study card |
-| `project-uz.jpg` | UZ Research Week project card |
+| `profile.jpg` | Office portrait (white sweater, at the laptop) |
+| `project-kamativi.jpg` | Site photo from behind — red BRAVURA shirt, overlooking the plant |
+| `project-kamativi-2.jpg` | Site photo from the side — on the platform with clipboard, blue hard hat |
+| `logo-bravura.png` | Bravura rhino logo |
+| `logo-uz.png` | University of Zimbabwe crest |
 
-- Any image is fine (JPG/PNG/WebP); around 1200px wide is plenty.
+- JPG/PNG/WebP all work; around 1200px wide is plenty.
 - If an image is missing the site shows a clean fallback, so nothing breaks.
-- To use a different filename, just update the `photo:` or `image:` line in the matching note (`vault/profile.md` or the project note).
+- To use different filenames, update the matching note: `photo:` in `vault/profile.md`, `image:` in a project note, or `logo:` in a career note.

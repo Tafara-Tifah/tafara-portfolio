@@ -2,6 +2,8 @@
 section: Education & Certifications
 ---
 
+![University of Zimbabwe](vault/assets/images/logo-uz.png)
+
 ## Education
 - **MSc in Manufacturing Systems Engineering** — University of Zimbabwe (First Class), 2026
 - **BSc Honours in Electrical Engineering** — University of Zimbabwe (Upper Second Class), 2023

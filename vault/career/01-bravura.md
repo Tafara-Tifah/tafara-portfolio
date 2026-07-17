@@ -3,6 +3,7 @@ company: Bravura Zimbabwe
 role: Junior Engineer (previously Graduate Trainee)
 period: May 2023 – Present
 location: Harare, Zimbabwe
+logo: vault/assets/images/logo-bravura.png
 order: 1
 ---
 
