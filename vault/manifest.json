@@ -5,11 +5,13 @@
   "education": "vault/education.md",
   "career": [
     "vault/career/01-bravura.md",
-    "vault/career/02-delta.md"
+    "vault/career/02-delta.md",
+    "vault/career/02-stylehive.md"
   ],
   "projects": [
     "vault/projects/kamativi-lithium-power-plant.md",
     "vault/projects/selous-platinum-power-study.md",
+    "vault/projects/style-hive.md",
     "vault/projects/uz-research-week.md"
   ]
 }

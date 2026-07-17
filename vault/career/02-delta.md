@@ -3,7 +3,7 @@ company: Delta Beverages (Chibuku Harare Brewery)
 role: Industrial Attachment
 period: March 2021 – February 2022
 location: Harare, Zimbabwe
-order: 2
+order: 3
 ---
 
 - Carried out weekly and monthly preventive maintenance and responded to breakdowns.
