@@ -1,6 +1,6 @@
 ---
 title: Style Hive — Electrical Installations, Solar & Repairs
-period: Ongoing
+period: 2025 – Present
 tags: Domestic wiring, Solar systems, Borehole pumps
 image: vault/assets/images/project-stylehive.jpg
 order: 4

@@ -1,7 +1,7 @@
 ---
 company: Style Hive
 role: Founder & Electrical Contractor
-period: Ongoing
+period: September 2025 – Present
 location: Harare, Zimbabwe
 logo: vault/assets/images/logo-stylehive.png
 order: 2
