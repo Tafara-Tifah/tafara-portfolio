@@ -12,8 +12,8 @@ photo: vault/assets/images/profile.jpg
 cv: vault/assets/CV_TafaraChikuku.pdf
 ---
 
-I am an Electrical Engineer holding a First Class Master's Degree in Manufacturing Systems Engineering, with hands-on experience in power systems, industrial automation, and process plant installation. Alongside my engineering career, I run **Style Hive**, my own company offering domestic electrical installations and repairs.
+I hold a BSc Honours degree in Electrical Engineering and a Master's Degree in Manufacturing Systems Engineering, specializing in power systems and industrial automation.
 
-I bring a strong foundation in electrical design, cable sizing, equipment installation, lean manufacturing practices, and project planning. Motivated by innovation and sustainability, I'm passionate about delivering engineering solutions that improve industrial performance and positively impact communities.
+I have strong project management and design experience, highlighted by the development of a lithium processing plant. My technical expertise includes large-scale plant equipment installation, electrical design, cable sizing, applying standards and regulations, and lean manufacturing practices.
 
-I work well in multidisciplinary teams, quickly adapt to new technologies, and stay committed to continuous learning and professional development. With strong ethical values and a proactive mindset, I aim to lead and contribute to high-impact projects that shape the future of engineering.
+Driven by innovation and sustainability, I focus on engineering solutions that optimize industrial performance and benefit communities. I work well in multidisciplinary teams, quickly adapt to new technologies, and am committed to leading high-impact engineering projects.
