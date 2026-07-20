@@ -178,7 +178,8 @@ async function renderSection(path, elId) {
       renderProjects(manifest.projects || []),
       renderSection(manifest.skills, "skills-body"),
       renderSection(manifest.achievements, "achievements-body"),
-      renderSection(manifest.education, "education-body")
+      renderSection(manifest.education, "education-body"),
+      manifest.references ? renderSection(manifest.references, "references-body") : Promise.resolve()
     ]);
   } catch (err) {
     console.error(err);

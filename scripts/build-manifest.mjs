@@ -20,6 +20,7 @@ const manifest = {
   skills: "vault/skills.md",
   achievements: "vault/achievements.md",
   education: "vault/education.md",
+  references: "vault/references.md",
   career: mdIn("career"),
   projects: mdIn("projects"),
 };
