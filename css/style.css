@@ -115,7 +115,8 @@ img { max-width: 100%; }
 .tl-body p { margin-bottom: 0.4rem; }
 
 /* Logos & inline images */
-.tl-logo { height: 46px; width: auto; background: #fff; border: 1px solid var(--line); padding: 5px 10px; border-radius: 8px; margin-bottom: 0.5rem; display: block; }
+.tl-logos { display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.5rem; flex-wrap: wrap; }
+.tl-logo { height: 46px; width: auto; background: #fff; border: 1px solid var(--line); padding: 5px 10px; border-radius: 8px; display: block; }
 .prose img { max-height: 80px; width: auto; background: #fff; border: 1px solid var(--line); padding: 6px 10px; border-radius: 10px; display: block; margin-bottom: 0.8rem; }
 .card-text img { width: 100%; border-radius: 8px; margin-top: 0.5rem; cursor: zoom-in; }
 

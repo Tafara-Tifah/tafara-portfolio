@@ -122,7 +122,8 @@ async function renderCareer(paths) {
   notes.sort((a, b) => (+a.meta.order || 99) - (+b.meta.order || 99));
   document.getElementById("career-timeline").innerHTML = notes.map(({ meta, body }) => `
     <div class="tl-item">
-      ${meta.logo ? `<img class="tl-logo" src="${esc(meta.logo)}" alt="${esc(meta.company || "")} logo" onerror="this.remove()">` : ""}
+      ${meta.logo ? `<div class="tl-logos">` + meta.logo.split(",").map(l =>
+        `<img class="tl-logo" src="${esc(l.trim())}" alt="${esc(meta.company || "")} logo" onerror="this.remove()">`).join("") + `</div>` : ""}
       <h3>${esc(meta.role || "")} · ${esc(meta.company || "")}</h3>
       <div class="tl-meta">${esc(meta.period || "")}</div>
       <div class="tl-loc">${esc(meta.location || "")}</div>
