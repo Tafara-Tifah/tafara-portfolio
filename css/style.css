@@ -84,6 +84,9 @@ img { max-width: 100%; }
 }
 .social-btn:hover { transform: translateY(-2px); border-color: var(--gold); text-decoration: none; }
 .social-btn svg { width: 18px; height: 18px; fill: var(--blue); }
+.cv-btn { background: var(--gold); border-color: var(--gold); color: #fff; }
+.cv-btn svg { fill: #fff; }
+.cv-btn:hover { border-color: var(--blue-deep); background: #b78608; }
 
 /* Sections */
 .section { max-width: var(--maxw); margin: 0 auto; padding: 3.2rem 1.4rem; }

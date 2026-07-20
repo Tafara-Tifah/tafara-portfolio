@@ -74,7 +74,8 @@ const ICONS = {
   facebook: '<svg viewBox="0 0 24 24"><path d="M24 12.07c0-6.63-5.37-12-12-12s-12 5.37-12 12c0 5.99 4.39 10.95 10.13 11.85v-8.38h-3.05v-3.47h3.05v-2.64c0-3.01 1.79-4.67 4.53-4.67 1.31 0 2.69.23 2.69.23v2.95h-1.51c-1.49 0-1.96.93-1.96 1.88v2.25h3.33l-.53 3.47h-2.8v8.38c5.74-.9 10.13-5.86 10.13-11.85z"/></svg>',
   whatsapp: '<svg viewBox="0 0 24 24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.65.07-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.49s1.07 2.89 1.22 3.09c.15.2 2.1 3.2 5.08 4.49.71.3 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.42.25-.7.25-1.29.17-1.42-.07-.13-.27-.2-.57-.35zM12.05 21.79h-.01a9.8 9.8 0 0 1-4.99-1.37l-.36-.21-3.71.97.99-3.62-.23-.37a9.77 9.77 0 0 1-1.5-5.22c0-5.4 4.4-9.8 9.82-9.8a9.75 9.75 0 0 1 9.8 9.81c0 5.4-4.4 9.8-9.81 9.8zm8.35-18.16a11.72 11.72 0 0 0-8.35-3.46c-6.5 0-11.8 5.29-11.8 11.8 0 2.08.54 4.11 1.58 5.9l-1.68 6.13 6.28-1.65a11.78 11.78 0 0 0 5.61 1.43h.01c6.5 0 11.8-5.3 11.8-11.8 0-3.15-1.23-6.12-3.45-8.35z"/></svg>',
   email: '<svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>',
-  phone: '<svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>'
+  phone: '<svg viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>',
+  cv: '<svg viewBox="0 0 24 24"><path d="M5 20h14v-2H5v2zM19 9h-4V3H9v6H5l7 7 7-7z"/></svg>'
 };
 
 function socialButton(kind, label, href) {
@@ -105,11 +106,15 @@ async function renderProfile(path) {
     socialButton("linkedin", "LinkedIn", meta.linkedin) +
     socialButton("facebook", "Facebook", meta.facebook) +
     socialButton("whatsapp", "WhatsApp", meta.whatsapp);
-  document.getElementById("social-row").innerHTML = socials;
+  const cvBtn = meta.cv
+    ? `<a class="social-btn cv-btn" href="${esc(meta.cv)}" download="CV_TafaraChikuku.pdf">${ICONS.cv}Download CV</a>`
+    : "";
+  document.getElementById("social-row").innerHTML = socials + cvBtn;
   document.getElementById("contact-links").innerHTML =
     socials +
     socialButton("email", meta.email || "", meta.email ? "mailto:" + meta.email : "") +
-    socialButton("phone", meta.phone || "", meta.phone ? "tel:" + meta.phone.replace(/\s+/g, "") : "");
+    socialButton("phone", meta.phone || "", meta.phone ? "tel:" + meta.phone.replace(/\s+/g, "") : "") +
+    cvBtn;
 }
 
 async function renderCareer(paths) {
