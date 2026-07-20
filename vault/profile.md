@@ -12,8 +12,8 @@ photo: vault/assets/images/profile.jpg
 cv: vault/assets/CV_TafaraChikuku.pdf
 ---
 
-I hold a BSc Honours degree in Electrical Engineering and a Master's Degree in Manufacturing Systems Engineering, specializing in power systems and industrial automation.
+I am an Electrical Engineer holding a BSc Honours degree in Electrical Engineering and a First Class Master's degree in Manufacturing Systems Engineering, with a specialization in power systems and industrial automation.
 
-I have strong project management and design experience, highlighted by the development of a lithium processing plant. My technical expertise includes large-scale plant equipment installation, electrical design, cable sizing, applying standards and regulations, and lean manufacturing practices.
+I bring strong project management and design experience, most notably from the development of a lithium processing plant. My technical expertise spans large-scale plant equipment installation, electrical design, cable sizing, the application of engineering standards and regulations, and lean manufacturing practices.
 
-Driven by innovation and sustainability, I focus on engineering solutions that optimize industrial performance and benefit communities. I work well in multidisciplinary teams, quickly adapt to new technologies, and am committed to leading high-impact engineering projects.
+Driven by innovation and sustainability, I deliver engineering solutions that optimize industrial performance and benefit communities. I thrive in multidisciplinary teams, adapt quickly to new technologies, and am committed to leading high-impact engineering projects.
